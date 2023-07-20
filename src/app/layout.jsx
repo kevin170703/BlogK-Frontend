@@ -1,5 +1,5 @@
 import "./globals.css";
-import Script from "next/script";
+import Head from "next/head";
 
 export const metadata = {
   title: "blogK",
@@ -9,15 +9,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-FQJG4LWVG7"
-      ></Script>
-      <Script>
-        window.dataLayer = window.dataLayer || []; function gtag()
-        {dataLayer.push(arguments)}
-        gtag('js', new Date()); gtag('config', 'G-FQJG4LWVG7');
-      </Script>
+      <Head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-FQJG4LWVG7"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: ` window.dataLayer = window.dataLayer || []; function gtag()
+          dataLayer.push(arguments) gtag('js', new Date()); gtag('config',
+          'G-FQJG4LWVG7');`,
+          }}
+        />
+      </Head>
 
       <body>{children}</body>
     </html>
