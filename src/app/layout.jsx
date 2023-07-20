@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-FQJG4LWVG7"
       ></Script>
-      <Script>
+      <Script id="google-analytics" strategy="afterInteractive">
         {`
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
