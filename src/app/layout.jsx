@@ -1,7 +1,5 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import Script from "next/script";
 
 export const metadata = {
   title: "blogK",
@@ -12,15 +10,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <script
+        <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-FQJG4LWVG7"
-        ></script>
-        <script>
+        ></Script>
+        <Script>
           window.dataLayer = window.dataLayer || []; function gtag()
           {dataLayer.push(arguments)}
           gtag('js', new Date()); gtag('config', 'G-FQJG4LWVG7');
-        </script>
+        </Script>
       </head>
       <body>{children}</body>
     </html>
