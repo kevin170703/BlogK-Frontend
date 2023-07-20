@@ -1,0 +1,40 @@
+.homeContainer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.subtitile {
+  font-size: 16px;
+  color: #777;
+}
+
+.recentArticles {
+  margin-top: 40px;
+}
+
+.recentArticlesTitle {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contentCardsBlogs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.linkArticle {
+  text-decoration: none;
+}
