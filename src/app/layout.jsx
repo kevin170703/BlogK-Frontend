@@ -13,7 +13,7 @@ const poppins = Poppins({
 export default function RootLayout({ children }) {
   return (
     <html lang="es" className={poppins.className}>
-      {/* <Script
+      <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-FQJG4LWVG7"
       ></Script>
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
 
           gtag('config', 'G-FQJG4LWVG7');
         `}
-      </Script> */}
+      </Script>
 
       <body>{children}</body>
     </html>
