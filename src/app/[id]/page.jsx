@@ -12,8 +12,8 @@ const ArticleDetails = ({ params }) => {
   const dataArticle = dataArticles.find((article) => article.id == id);
   return (
     <HelmetProvider>
-      <NavBar />
       <div key={id} className={style.contentAllArticle}>
+        <NavBar />
         <div className={style.contentArticle}>
           <div className={style.titleAndImage}>
             <Image

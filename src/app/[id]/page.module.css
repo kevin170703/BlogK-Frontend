@@ -25,7 +25,7 @@
   align-items: center;
   overflow: hidden;
   position: relative;
-  margin: 36px 0;
+  margin: 36px 0 0 0;
 }
 
 .titleAndImage img {
@@ -57,6 +57,13 @@
   list-style: none;
 }
 
+.indice li {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
 .contentArticle h2 {
   font-weight: 600;
   text-align: start;
@@ -74,12 +81,6 @@
     display: none;
   }
 
-  .indice li {
-    width: max-content;
-    height: 40px;
-    display: flex;
-    align-items: center;
-  }
   .contentArticle {
     padding: 0 16px;
   }
