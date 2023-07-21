@@ -19,10 +19,7 @@ export default function NavBar({ dataInput, home }) {
           onChange={(e) => dataInput(e.target.value)}
         />
       </form>
-      <Link
-        className={style.newBlog}
-        href="/ganar-dinero-siendo-adolescente-por-internet"
-      >
+      <Link className={style.newBlog} href="/seo-mejorar-web">
         Blog mas popular
       </Link>
     </nav>
