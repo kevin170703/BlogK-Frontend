@@ -5,7 +5,7 @@ export default function NavBar({ dataInput, home }) {
   return (
     <nav className={style.nav}>
       <a href="/" className={style.title}>
-        blogK
+        SEOWebLab
       </a>
       <form
         style={{ display: home ? "flex" : "none" }}

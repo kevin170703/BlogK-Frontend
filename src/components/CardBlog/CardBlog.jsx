@@ -8,6 +8,7 @@ const ArticleCard = ({ title, description, image }) => {
         className={styles.image}
         src={image}
         alt="Article"
+        priority={true}
         width={"300"}
         height={"300"}
       />
