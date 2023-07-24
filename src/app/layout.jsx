@@ -13,20 +13,23 @@ const poppins = Poppins({
 export default function RootLayout({ children }) {
   return (
     <html lang="es" className={poppins.className}>
-      <head>
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-N28SVHBHEE"
-        ></Script>
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
+      <meta
+        name="google-site-verification"
+        content="09e4RzwyRmQtS4eQSX4XtPELVTTN0km0Sq5i-EsSQr8"
+      />
+
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-N28SVHBHEE"
+      ></Script>
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-N28SVHBHEE');
         `}
-        </Script>
-      </head>
+      </Script>
 
       <body>{children}</body>
     </html>
