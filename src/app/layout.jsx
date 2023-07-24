@@ -15,15 +15,14 @@ export default function RootLayout({ children }) {
     <html lang="es" className={poppins.className}>
       <Script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-FQJG4LWVG7"
+        src="https://www.googletagmanager.com/gtag/js?id=G-N28SVHBHEE"
       ></Script>
       <Script id="google-analytics" strategy="afterInteractive">
         {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-FQJG4LWVG7');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-N28SVHBHEE');
         `}
       </Script>
 
