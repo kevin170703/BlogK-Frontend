@@ -25,7 +25,7 @@ const Home = () => {
       <div className={style.homeContainer}>
         <Helmet>
           <title>
-            SEOWebLab - Eleva tu Visibilidad en google con Estrategias SEO y
+            SEO WebLab - Eleva tu Visibilidad en google con Estrategias SEO y
             Desarrollo web
           </title>
           <meta
