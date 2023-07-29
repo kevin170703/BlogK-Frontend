@@ -13,10 +13,7 @@ const poppins = Poppins({
 export default function RootLayout({ children }) {
   return (
     <html lang="es" className={poppins.className}>
-      <meta
-        name="google-site-verification"
-        content="09e4RzwyRmQtS4eQSX4XtPELVTTN0km0Sq5i-EsSQr8"
-      />
+      <meta name="keywords" content="seo, seo weblab, seoweblab"></meta>
       <link rel="canonical" href="https://www.seoweblab.click" />
 
       <Script
