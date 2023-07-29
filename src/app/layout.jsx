@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
         name="google-site-verification"
         content="09e4RzwyRmQtS4eQSX4XtPELVTTN0km0Sq5i-EsSQr8"
       />
+      <link rel="canonical" href="https://www.seoweblab.click" />
 
       <Script
         async
